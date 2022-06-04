@@ -2,13 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TheClockStopTickingForeverAgo"
-             x:Class="TheClockStopTickingForeverAgo.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Марк от слова мини!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+             x:Class="TheClockStopTickingForeverAgo.MainPage"
+             Background="#102540">
+<AbsoluteLayout x:Name="absoluteLayout" 
+                VerticalOptions="Center" />
 
 </ContentPage>

@@ -15,7 +15,7 @@
 
     <ItemGroup>
       <Compile Update="MainPage.xaml.cs">
-        <DependentUpon>MainPage.xaml</DependentUpon>
+        <DependentUpon>MainPage.xamll</DependentUpon>
       </Compile>
     </ItemGroup>
 </Project>
